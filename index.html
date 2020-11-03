@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rodolfo Augusto">
+    <meta name="description" content="Slider com JavaScript">
+    <script src="https://kit.fontawesome.com/4274ab5aa9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>SliderJS</title>
+</head>
+<body>
+
+    <header>
+        <div class="center">
+            <div class="logo">
+                <a href="#"><img src="./images/logo2.png" alt=""></a>
+            </div><!--logo-->
+            <nav class="desk">
+                <ul>
+                    <li class="one"><a href="#">Home</a></li><!--
+                    --><li class="two"><a href="#">Sobre</a></li><!--
+                    --><li class="three"><a href="#">Serviços</a></li><!--
+                    --><li class="four"><a href="#">Contato</a></li>
+                       <hr/>
+                    <!-- <button class="call">Entre em contato</button> -->
+                </ul>
+            </nav>
+        <div class="clear"></div>
+        </div><!--centers-->  
+    </header>
+
+    <section>
+        <div class="header"></div>
+        <div class="slider">
+            <div class="slider__controls">
+                <div class="control" onClick="goPrev();"><i class="fas fa-arrow-left"></i></div>
+                <div class="control" onClick="goNext();"><i class="fas fa-arrow-right"></i></div>
+                
+            </div>
+            <div class="slider__width">
+                <div class="slideritem" style="background-image: url(./images/001.jpg);">
+                    Technology
+                </div>
+                <div class="slideritem" style="background-image:url(./images/002.jpg);">
+                    Innovation
+                </div>
+                <div class="slideritem" style="background-image: url(./images/003.jpg);">
+                    On this World
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section><h1>Resto do Site</h1></section> -->
+
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
